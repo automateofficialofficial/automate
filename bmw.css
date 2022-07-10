@@ -1,0 +1,918 @@
+.header{
+    width: 1240px;
+    height: 85px;
+    margin-top: 0px;
+    background-color: black;
+    display: flex;
+    position: sticky;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    flex-wrap: nowrap;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.html,body{
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+.image{
+    width: 70px;
+    height: 70px;
+}
+.auto-logo{
+    width:90px;
+    margin-top: 10px;
+    height: 70px;
+    margin-left: 30px;
+    
+
+}
+.automate{
+    font-size: 35px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: wavy;
+
+}
+.auto-name{
+    width:130px;
+    margin-top:23px;
+    height: 50px;
+    margin-left:0px;
+    padding-right: 100px;
+
+}
+.search-bardiv{
+    width: 450px;
+    margin-top:20px;
+}
+.search-bar{
+    width: 450px;
+}
+.search{
+    width: 450px;
+}
+.search-bbar{
+    width:430px;
+}
+.search-sign{
+    width:40px;
+    height:40px;
+    margin-top: 20px;
+    
+}
+.insta-face{
+    width: 100px;
+    height: 50px;
+    margin-left: 580px;
+    padding-left: 0px;
+    margin-top: 27px;
+    display: flex;
+
+}
+.you-tube{
+    width: 25px;
+    height: 21px;
+    padding-left: 5px;
+    padding-top: 2px;
+    
+}
+.search-image{
+    width: 25px;
+    height: 25px;
+}
+.insta-image{
+    width: 25px;
+    height: 25px;
+}
+.face-image{
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+}
+#title-bar{
+    width:1240px;
+    height: 45px;
+    background-color: black;
+    margin-top: 2px;
+    position: sticky;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} 
+#title-bar.sticky{
+    background-color: rgb(36, 35, 35) ;
+}
+.news{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    margin-left:5px;
+    
+}
+.cars{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    
+}
+.bike{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    
+}
+.comparision{
+    width:120px;
+    height:50px;
+    display: inline-block;
+}
+.newsp{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: wavy;
+}
+.carsp{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: wavy;
+}
+.bikep{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    text-decoration: wavy;
+}
+.comparisonsp{
+    width:120px;
+    height:50px;
+    display: inline-block;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: wavy;
+}
+.below-news-page{
+    background-color: black;
+    width: 1240px;
+    height: 2000px;
+    flex-wrap: wrap;
+}
+.left{
+    width: 100%;
+    height: 1810px;
+    background-color:black;
+    float: left;
+    padding-left: 5px;
+}
+.second-left{
+    width:100% ;
+    height:1810px;
+    background-color: black;
+    margin-top: 78px;
+    padding-left: 0px;
+}
+
+.first-right{
+    width:100%;
+    height:1810px;
+    background-color: black;
+    margin-top: 78px;
+ 
+}
+
+.second-right{
+    width:100%;
+    height:1810px;
+    background-color:black;
+    float: right;
+    margin-top: 78px;
+    margin-left: 2px;
+    
+}
+
+.full-left{
+    float: left;
+    width: 50%;
+    height:2180px;
+    background-color: black;
+    display: flex;
+
+}
+.full-right{
+    float:right;
+    width: 50%;
+    height:2180px;
+    background-color: black;
+    display: flex;
+}
+.bmw{
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 8px;
+}
+.bmw-3series{
+    width: 99%;
+    height:200px;
+}
+.bmw3seriespara{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmwx1{
+    width: 99%;
+    height:200px;
+}
+.bmwx1para{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmwx7{
+    width: 99%;
+    height:200px; 
+}
+.bmwx7para{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmw-z4{
+    width: 99%;
+    height:200px; 
+}
+.bmwz4para{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmw2seriesgrancoupe{
+    width: 99%;
+    height:200px; 
+}
+.bmw2seriesgrancoupepara{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmw5series{
+    width: 99%;
+    height:200px; 
+}
+.bmw5seriespara{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmwx5{
+    width: 99%;
+    height:200px; 
+}
+.bmwx5para{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmwx3{
+    width: 99%;
+    height:200px; 
+}
+.x3para{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmw7series{
+    width: 99%;
+    height:200px; 
+}
+.bmw7seriespara{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmw3seriesgranlimousine{
+    width: 99%;
+    height:200px; 
+}
+.bmw3seriesgranlimousinepara{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmwx4{
+    width: 99%;
+    height:200px; 
+}
+.x4para{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmwm8{
+    width: 99%;
+    height:200px; 
+}
+.m8para{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmw6seriesgt{
+    width: 99%;
+    height:200px;
+}
+.bmw6seriesgtpara{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmw8series{
+    width: 99%;
+    height:200px;
+}
+.bmw8seriespara{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmwx6{
+    width: 99%;
+    height:200px;
+}
+.x6para{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmwm5{
+    width: 99%;
+    height:200px;
+}
+.m5para{
+    color:white;
+    width: 300px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmwm4competition{
+    width: 99%;
+    height:200px;
+}
+.m4para{
+    color:white;
+    width: 300px;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmwm2{
+    width: 99%;
+    height:200px; 
+}
+.bmwm2para{
+    color:white;
+    width: 300px;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmwx5m{
+    width: 99%;
+    height:200px; 
+}
+.bmwx5mpara{
+    color:white;
+    width: 300px;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bmwix{
+    width: 99%;
+    height:200px; 
+}
+.ixpara{
+    color:white;
+    width: 300px;
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer{
+    background-color: rgb(117, 110, 110);
+    height:400px;
+    display: flex; 
+    width: 1240px; 
+}
+.footer-left{
+    width: 500px;
+    height:400px;
+    margin-left: 10px;
+}
+.footer-middle{
+    width:500px ;
+    height: 400px;
+    margin-top: 10px;
+}
+.footer-right{
+    width: 300px;
+    height: 400px;
+}
+.leftfooter-para{
+    color:black;
+    font-size:19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.about{
+    color: black;
+    font-size: 18px;
+    text-decoration: wavy;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.contact{
+    color: black;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.automotive-content{
+    color: white;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.vidhya{
+    color: white;
+    font-size: 21px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.vidhya-mail{
+    color:black;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-decoration: wavy;
+}
+.designing{
+    color: white;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.christo{
+    color: white;
+    font-size: 21px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.christo-mail{
+    color: black;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-decoration: wavy;
+}
+.footer-cars{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.footer-bikes{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.comparisions{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.carso{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.bikeso{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.news:hover{
+    background-color:rgb(61, 61, 61);
+}
+.cars:hover{
+    background-color:rgb(61, 61, 61);
+}
+.bike:hover{
+    background-color:rgb(61, 61, 61);
+}
+.comparision:hover{
+    background-color:rgb(61, 61, 61);
+}
+.vidhya-mail:hover{
+    background-color:rgb(61, 61, 61);
+}
+.christo-mail:hover{
+    background-color:rgb(61, 61, 61);
+}
+.copy-right{
+    width: 1240px;
+    height: 30px;
+    background-color: rgb(36, 35, 35);
+    padding-top: 0px;
+    margin: 0px;
+    flex-direction: column;
+}
+.copyright{
+    font-size: 18px;
+    color:grey;
+    margin-left: 400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media only screen and (max-width: 540px){ 
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .bmw-3series{
+      width:100%;
+    } 
+    .bmw3seriespara{
+      overflow-wrap: break-word;
+      font-size: 12px;
+    }
+    .bmwx1{
+      width: 100%;
+    } 
+    .bmwx1para{
+        font-size: 12px;
+    }
+    .bmwx7{
+      width: 100%;
+    }
+    .bmwx7para{
+        font-size: 12px;
+    }
+    .bmw-z4{
+       width: 100%;
+    }
+    .bmwz4para{
+        font-size: 12px;
+    }
+    .bmw2seriesgrancoupe{
+        width: 100%;
+    }
+    .bmw2seriesgrancoupepara{
+        font-size: 12px;
+    }
+    .bmw5series{
+        width: 100%;
+    }
+    .bmw5seriespara{
+        font-size: 12px;
+    }
+    .bmwx5{
+        width: 100%;
+    }
+    .bmwx5para{
+        font-size: 12px;
+    }
+    .bmwx3{
+        width: 100%;
+    }
+    .x3para{
+        font-size: 12px;
+    }
+    .bmw7series{
+        width: 100%;
+    }
+    .bmw7seriespara{
+        font-size: 12px;
+    }
+    .bmw3seriesgranlimousine{
+        width: 100%;
+    }
+    .bmw3seriesgranlimousinepara{
+        font-size: 12px;
+    }
+    .bmwx4{
+        width: 100%;
+    }
+    .x4para{
+        font-size: 12px;
+    }
+    .bmwm8{
+        width: 100%;
+    }
+    .m8para{
+        font-size: 12px;
+    }
+    .bmw6seriesgt{
+        width: 100%;
+    }
+    .bmw6seriesgtpara{
+        font-size: 12px;
+    }
+    .bmw8series{
+        width: 100%;
+    }
+    .bmw8seriespara{
+        font-size: 12px;
+    }
+    .bmwx6{
+        width: 100%;
+    }
+    .x6para{
+        font-size: 12px;
+    }
+    .bmwm5{
+        width: 100%;
+
+    }
+    .m5para{
+        font-size: 12px;
+    }
+    .bmwm4competition{
+        width: 100%;
+    }
+    .m4para{
+        font-size: 12px;
+    }
+    .bmwm2{
+        width: 100%;
+    }
+    .bmwm2para{
+        font-size: 12px;
+    }
+    .bmwx5m{
+        width: 100%;
+    }
+    .bmwx5mpara{
+        font-size: 12px;
+    }
+    .bmwix{
+        width: 100%;
+    }
+    .ixpara{
+        font-size: 12px;
+    }
+    .below-news-page{
+        height: 3650px;
+        width:100%;
+        justify-content: center;
+    }
+    .full-right{
+        flex-wrap: wrap;
+        
+    }
+    .full-left{
+        flex-wrap: wrap;
+    }
+    .left{
+        width: 100%;
+        height:400px;
+    }
+    .second-left{
+        width: 100%;
+        margin-top: 1450px;
+        margin-left: 5px;
+        height: 1750px;
+    }
+    .first-right{
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 1800px;
+    }
+    .second-right{
+        width: 100%;
+        margin-top:0px ;
+        margin-left: 10px;
+        margin-right: 5px;
+        height: 1750px;
+        
+    }
+    .header{
+        width:100%;
+        height: 50px;
+    }
+    .auto-logo{
+        width: 55px;
+        margin-top: 5px;
+        height: 45px;
+        margin-left: 10px;
+    }
+    .image{
+        width: 45px;
+        height: 45px;
+    }
+    .auto-name{
+        width: 50px;
+        height: 45px;
+        margin-top: 15px;
+    }
+    .automate{
+        font-size: 20px;
+    }
+    .insta-face{
+        width: 70px;
+        height: 35px;
+        margin-top: 18px;
+    }
+    .insta-image{
+        width: 15px;
+        height: 15px;
+    }
+    .face-image{
+        width: 15px;
+        height: 15px;
+    }
+    .you-tube{
+        width: 15px;
+        height: 13px;
+    }
+    .below-news-page{
+        width: 100%;
+    }
+    .title-bar{
+        width: 100%;
+    }
+    .insta-face{
+        margin-left: 60px;
+    }
+    .footer-left{
+        width:60% ;
+        height: 300px;
+    }
+    .footer-middle{
+        width:40% ;
+        height: 300px;
+        margin-left: 0px;
+        margin-right: 10px;
+
+    }
+    .footer-right{
+        display: none;
+    }
+    .footer{
+        height: 400px;
+        width: 100%;
+    }
+    .leftfooter-para{
+        font-size: 12px;
+    }
+    .about{
+        font-size: 15px;
+    }
+    .contact{
+        font-size: 15px;
+    }
+    .automotive-content{
+        font-size: 15px;
+    }
+    .vidhya{
+        font-size: 15px;
+    }
+    .vidhya-mail{
+        font-size: 12px;
+    }
+    .designing{
+        font-size: 15px;
+    }
+    .christo{
+        font-size: 15px;
+    }
+    .christo-mail{
+        font-size: 12px;
+    }
+    .footer-cars{
+        font-size: 15px;
+    }
+    .footer-bikes{
+        font-size: 15px;
+    }
+    .comparisions{
+        font-size: 15px;
+    }
+    .carso{
+        font-size: 15px;
+    }
+    .bikeso{
+        font-size: 15px;
+    }
+    .copyright{
+        margin-left: 0%;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+}
+@media only screen and (min-width: 1240px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .footer{
+        width: 100%;
+        height: 400px;
+    }
+    .copy-right{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    #title-bar{
+        width: 100%;
+    }
+    .below-news-page{
+        height: 1300px;
+        width:100%;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 1241px){
+    .footer{
+        width: 100%;
+        height: 400px;
+    }
+    .copy-right{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    #title-bar{
+        width: 100%;
+    }
+    .below-news-page{
+        height: 1300px;
+        width:100%;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 1350px){
+.footer{
+    width: 100%;
+    height: 400px;
+}
+.copy-right{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 95px;
+}
+#title-bar{
+    width: 100%;
+}

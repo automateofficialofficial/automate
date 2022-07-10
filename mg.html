@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automate</title>
+    <link rel="icon" href="automatelogoo.jpg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href ="mg.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="auto-logo">
+                <img class="image" src="automatelogoo.jpg" alt="">
+            </div>
+            <div class="auto-name">
+                <a class="automate">AUTOMATE</a>
+            </div>
+            <div class="insta-face">
+                <a href="https://www.instagram.com/invites/contact/?i=f3sma48hlchn&utm_content=ou0034q"><img class="insta-image" src="insta+.png" alt=""></a>
+                <a href="https://www.facebook.com/Automate-official-100955986023157/"><img class="face-image" src="face+.png" alt=""></a>
+                <a href="https://youtube.com/channel/UCsIGQvIYWSYOAFe97MvH1yQ"><img class="you-tube" src="youtube.png" alt=""></a>
+                
+            </div>
+        </div>
+
+    </div>
+    <div id="title-bar">
+        <div class="news">
+            <a class="newsp" href="index.html">NEWS</a>
+        </div>
+        <div class="cars">
+            <a class="carsp" href="logos.html">CARS</a>
+        </div>
+        <div class="bike">
+            <a class="bikep" href="bikelogo.html">BIKES</a>
+        </div>
+        <div class="comparision">
+            <a class="comparisonsp" href="comparison.html">COMPARISONS</a>
+        </div>
+    </div>
+    <div class="below-news-page">
+        <div class="full-left">
+         <div class="left">
+            <p class="mg">MG</p>
+            <img class="astor" src="astor.webp" alt="">
+            <p class="astorpara">#MG Astor<br>Price
+                ₹ 9.98 Lakh onwards<br>
+                Engine
+                1349 to 1498 cc<br>
+                Transmission
+                Manual, Automatic<br>(CVT) & Automatic (TC)<br>
+                Fuel Type
+                Petrol<br>
+                Seating Capacity
+                5 Seater</p>
+             <img class="hectorplus" src="hector-plus.webp" alt="">
+             <p class="hectorpluspara">#MG Hector Plus<br>Price
+                ₹ 14.65 Lakh onwards<br>
+                Mileage
+                16.6 kmpl<br>
+                Engine
+                1451 to 1956 cc<br>
+                Transmission
+                Manual & <br>Automatic(DCT)<br>
+                Fuel Type
+                Petrol,<br>Diesel & Hybrid (Electric + Petrol)<br>
+                Seating Capacity
+                6 & 7 Seater
+                    </p>
+         </div>
+         <div class="second-left">
+            <img class="hector" src="hector.webp" alt="">
+            <p class="hectorpara">#MG Hector<br>Price
+                ₹ 14.15 Lakh onwards<br>
+                Mileage
+                13.96 to 17.41 kmpl<br>
+                Engine
+                1451 to 1956 cc<br>
+                Transmission
+                Manual, Automatic(CVT)<br> & Automatic (DCT)<br>
+                Fuel Type
+                Petrol, Diesel &<br> Hybrid (Electric + Petrol)<br>
+                Seating Capacity
+                5 Seater</p>
+         </div>
+        </div>
+        <div class="full-right">
+        <div class="first-right">
+            <img class="gloster" src="gloster.webp" alt="">
+            <p class="glosterpara">#MG Gloster<br>Price
+                ₹ 31.49 Lakh onwards<br>
+                Mileage
+                12.35 kmpl<br>
+                Engine
+                1996 cc<br>
+                Transmission
+                Automatic (TC)<br>
+                Fuel Type
+                Diesel<br>
+                Seating Capacity
+                6 & 7 Seater</p>
+         </div>
+         <div class="second-right">
+            <img class="zsev" src="zs-ev.webp" alt="">
+            <p class="zsevpara">#MG ZS EV<br>Price
+                ₹ 21.99 Lakh onwards<br>
+                Transmission
+                Automatic<br>
+                Fuel Type
+                Electric<br>
+                Seating Capacity
+                5 Seater</p>
+         </div>
+        </div>
+        <div class="footer">
+            <div class="footer-left">
+            <p class="leftfooter-para">Automate is a web portal covering all <br>the latest happenings in the Indian<br> automobile industry and details of all<br> indian cars and indian bikes,also<br>have the comparisions</p>
+            </div>
+            <div class="footer-middle">
+                <a class="about" href="about.html">*ABOUT</a>  
+               <p class="contact">*CONTACT</p>
+               <p class="automotive-content">Automotive and content</p>
+               <p class="vidhya">Vidhyasagar P S :</p>
+               <a class="vidhya-mail" href="mailto:vidhyasagarusthad@gmail.com" >vidhyasagarusthad@gmail.com</a>
+               <p class="designing">Designing and Development</p>
+               <p class="christo">Christo Edison :</p>
+               <a class="christo-mail" href="mailto:christoedison06@gmail.com">christoedison06@gmail.com</a>
+            </div>
+            <div class="footer-right">
+             <p class="footer-cars">*New Cars</p>
+             <p class="footer-bikes">*New Bikes</p>
+             <p class="comparisions">*Comparisions</p>
+             <p class="carso">*Cars</p>
+             <p class="bikeso">*Bikes</p>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p class="copyright">Copyright © 2022 Automate. All Rights Reserved.</p>
+        </div>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("title-bar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
+</body>
+</html>

@@ -1,0 +1,473 @@
+.header{
+    width: 1240px;
+    height: 85px;
+    margin-top: 0px;
+    background-color: black;
+    display: flex;
+    position: sticky;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    flex-wrap: nowrap;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.html,body{
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+.image{
+    width: 70px;
+    height: 70px;
+}
+.auto-logo{
+    width:90px;
+    margin-top: 10px;
+    height: 70px;
+    margin-left: 30px;
+    
+
+}
+.automate{
+    font-size: 35px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: wavy;
+
+}
+.auto-name{
+    width:130px;
+    margin-top:23px;
+    height: 50px;
+    margin-left:0px;
+    padding-right: 100px;
+
+}
+.search-bardiv{
+    width: 450px;
+    margin-top:20px;
+    
+}
+.search-bar{
+    width: 450px;
+}
+.search{
+    width: 450px;
+}
+.search-bbar{
+    width:430px;
+}
+.search-sign{
+    width:40px;
+    height:40px;
+    margin-top: 20px;
+    
+}
+.insta-face{
+    width: 100px;
+    height: 50px;
+    margin-left: 580px;
+    padding-left: 0px;
+    margin-top: 27px;
+    display: flex;
+
+}
+.you-tube{
+    width: 25px;
+    height: 21px;
+    padding-left: 5px;
+    padding-top: 2px;
+    
+}
+.search-image{
+    width: 25px;
+    height: 25px;
+}
+.insta-image{
+    width: 25px;
+    height: 25px;
+}
+.face-image{
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+}
+#title-bar{
+    width:1240px;
+    height: 45px;
+    background-color: black;
+    margin-top: 2px;
+    position: sticky;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 1240px;
+} 
+#title-bar.sticky{
+    background-color: rgb(36, 35, 35) ;
+}
+.news{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    margin-left:5px;
+    
+}
+.cars{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    
+}
+.bike{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    
+}
+.comparision{
+    width:120px;
+    height:50px;
+    display: inline-block;
+}
+.newsp{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    text-decoration: wavy;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.carsp{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    text-decoration: wavy;
+    color: white;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bikep{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    text-decoration: wavy;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+.comparisonsp{
+    width:120px;
+    height:50px;
+    display: inline-block;
+    text-decoration: wavy;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.below-news-page{
+    background-color: black;
+    width: 1240px;
+    height:1200px;
+    flex-wrap: wrap;
+}
+.left{
+    width: 100%;
+    height: 1000px;
+    background-color:black;
+    float: left;
+    padding-left: 5px;
+}
+.mahindra{
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 8px;
+}
+.xuv700{
+    width: 99%;
+    height:200px;
+}
+.xuv700para{
+    color: white;
+    width: 300px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.second-left{
+    width:100%;
+    height:500px;
+    background-color: black;
+    margin-top: 80px;
+}
+.xuv300{
+    width:99%;
+    height: 200px;
+}
+.xuv300para{
+    color:white;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.first-right{
+    width: 100%;
+    height:1000px;
+    background-color: black;
+    margin-top: 80px;
+ 
+}
+.scorpio{
+    width: 99%;
+    height:200px;
+}
+.scorpiopara{
+    color:white;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.second-right{
+    width:100%;
+    height:1000px;
+    background-color:black;
+    float: right;
+    margin-top: 80px;
+    
+}
+.thar{
+    width: 99%;
+    height:200px;
+}
+.tharpara{
+    color: white;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.full-left{
+    float: left;
+    width: 50%;
+    height:1200px;
+    background-color: black;
+    display: flex;
+
+}
+.full-right{
+    float:right;
+    width: 50%;
+    height:1200px;
+    background-color: black;
+    display: flex;
+}
+.boleroneo{
+    width: 99%;
+    height:200px;
+}
+.boleroneopara{
+    color:white;
+    width: 300px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.marazzo{
+    width: 99%;
+    height:200px;
+}
+.marazzopara{
+    color:white;
+    width: 300px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.alturas{
+    width: 99%;
+    height:200px;
+}
+.alturaspara{
+    color:white;
+    width: 300px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.bolero{
+    width: 99%;
+    height:200px;
+}
+.boleropara{
+    color:white;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.kuv100{
+    width: 99%;
+    height:200px;
+}
+.kuv100para{
+    color:white;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.footer{
+    background-color: rgb(117, 110, 110);
+    height:370px;
+    display: flex;  
+    padding-top: 0px;
+    width: 1240px;
+}
+.footer-left{
+    width: 40%;
+    height:400px;
+    margin-left: 10px;
+}
+.footer-middle{
+    width:40%;
+    height: 400px;
+    margin-top: 10px;
+}
+.footer-right{
+    width: 20%;
+    height: 400px;
+}
+.leftfooter-para{
+    color:black;
+    font-size:19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.about{
+    color: black;
+    font-size: 18px;
+    text-decoration: wavy;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.contact{
+    color: black;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.automotive-content{
+    color: white;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.vidhya{
+    color: white;
+    font-size: 21px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.vidhya-mail{
+    color:black;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-decoration: wavy;
+}
+.designing{
+    color: white;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.christo{
+    color: white;
+    font-size: 21px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.christo-mail{
+    color: black;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-decoration: wavy;
+}
+.footer-cars{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.footer-bikes{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.comparisions{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.carso{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.bikeso{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.news:hover{
+    background-color:rgb(61, 61, 61);
+}
+.cars:hover{
+    background-color:rgb(61, 61, 61);
+}
+.bike:hover{
+    background-color:rgb(61, 61, 61);
+}
+.comparision:hover{
+    background-color:rgb(61, 61, 61);
+}
+.vidhya-mail:hover{
+    background-color:rgb(61, 61, 61);
+}
+.christo-mail:hover{
+    background-color:rgb(61, 61, 61);
+}
+.copy-right{
+    width: 1240px;
+    height: 30px;
+    background-color: rgb(36, 35, 35);
+    padding-top: 0px;
+    margin: 0px;
+    flex-direction: column;
+}
+.copyright{
+    font-size: 18px;
+    color:grey;
+    margin-left: 400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media only screen and (min-width: 1240px){ 
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .below-news-page{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    #title-bar{
+        width: 100%;
+    }
+    .copy-right{
+        width: 100%;
+    }
+    .insta-face{
+        margin-left: 700px;
+    }

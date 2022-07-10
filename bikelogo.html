@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automate</title>
+    <link rel="icon" href="automatelogoo.jpg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href ="bikelogo.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="auto-logo">
+                <img class="image" src="automatelogoo.jpg" alt="">
+            </div>
+            <div class="auto-name">
+                <a class="automate">AUTOMATE</a>
+            </div>
+            <div class="insta-face">
+                <img class="insta-image" src="insta+.png" alt="">
+                <img class="face-image" src="face+.png" alt="">
+                <img class="you-tube" src="youtube.png" alt="">
+                
+
+            </div>
+        </div>
+
+    </div>
+    <div id="title-bar">
+        <div class="news">
+            <p class="newsp">NEWS</p>
+        </div>
+        <div class="cars">
+            <p class="carsp">CARS</p>
+        </div>
+        <div class="bike">
+            <p class="bikep">BIKES</p>
+        </div>
+        <div class="comparision">
+            <p class="comparisonsp">COMPARISONS</p>
+        </div>
+    </div>
+    <div class="logo-page">
+        <div class="logo-box">
+        <a class="logo">Choose the brand</a>
+        </div>
+        <div class="full-logo">
+        <a href="tvs.html"><img class="tvs" src="tvs20200508193203.webp" alt=""></a>
+        <a href="hero.html"><img class="hero" src="hero20200508192826.webp" alt=""></a>
+        <a href="royal enfield.html"><img class="royalenfield" src="royal-enfield20200508193112.webp" alt=""></a>
+        
+       
+        <a href="yezdi.html"><img class="yezdi" src="yezdi (1).webp" alt=""></a>
+       
+        <a href="jawa.html"><img class="jawa" src="jawa20200508192940.webp" alt=""></a>
+       
+        <a href="triumph.html"><img class="triumph" src="triumph20200508193154.webp" alt=""></a>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-left">
+        <p class="leftfooter-para">Automate is a web portal covering all <br>the latest happenings in the Indian<br> automobile industry and details of all<br> indian cars and indian bikes,also<br>have the comparisions</p>
+        </div>
+        <div class="footer-middle">
+           <p class="about">*ABOUT</p>  
+           <p class="contact">*CONTACT</p>
+           <p class="automotive-content">Automotive and content</p>
+           <p class="vidhya">Vidhyasagar P S :</p>
+           <a class="vidhya-mail" href="mailto:vidhyasagarusthad@gmail.com" >vidhyasagarusthad@gmail.com</a>
+           <p class="designing">Designing and Development</p>
+           <p class="christo">Christo Edison :</p>
+           <a class="christo-mail" href="mailto:christoedison06@gmail.com">christoedison06@gmail.com</a>
+        </div>
+        <div class="footer-right">
+         <p class="footer-cars">*New Cars</p>
+         <p class="footer-bikes">*New Bikes</p>
+         <p class="comparisions">*Comparisions</p>
+         <p class="carso">*Cars</p>
+         <p class="bikeso">*Bikes</p>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p class="copyright">Copyright © 2022 Automate. All Rights Reserved.</p>
+    </div>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("title-bar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+</html>

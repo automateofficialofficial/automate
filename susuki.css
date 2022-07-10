@@ -1,0 +1,421 @@
+.header{
+    width: 100%;
+    height: 85px;
+    margin-top: 0px;
+    background-color: black;
+    display: flex;
+
+}
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    flex-wrap:nowrap;
+
+}
+.auto-logo{
+    width:150px;
+    margin-top: 0px;
+    height: 50px;
+    margin-top:20px ;
+
+}
+.automate{
+    font-size: 30px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+
+}
+.auto-name{
+    width:130px;
+    margin-top:20px;
+    height: 50px;
+    margin-left:0px;
+    padding-right: 100px;
+
+}
+.search-bardiv{
+    width: 450px;
+    margin-top:20px;
+    
+}
+.search-bar{
+    width: 450px;
+}
+.search{
+    width: 450px;
+}
+.search-bbar{
+    width:430px;
+}
+.search-sign{
+    width:40px;
+    height:40px;
+    margin-top: 20px;
+    
+}
+.insta-face{
+    width: 150px;
+    height: 50px;
+    margin-left: 50px;
+    padding-left: 60px;
+    margin-top: 20px;
+
+}
+.you-tube{
+    width: 25px;
+    height: 21px;
+    padding-left: 5px;
+    
+}
+.search-image{
+    width: 25px;
+    height: 25px;
+}
+.insta-image{
+    width: 25px;
+    height: 25px;
+}
+.face-image{
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+}
+.title-bar{
+    width:100%;
+    height: 50px;
+    background-color: black;
+    margin-top: 2px;
+}
+.news{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    margin-left:5px;
+    
+}
+.cars{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    
+}
+.bike{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    
+}
+.comparision{
+    width:120px;
+    height:50px;
+    display: inline-block;
+}
+.newsp{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.carsp{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    color: white;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bikep{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+.comparisonsp{
+    width:120px;
+    height:50px;
+    display: inline-block;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.left{
+    width: 311.835px;
+    height: 1500px;
+    background-color:white;
+    float: left;
+    padding-left: 5px;
+}
+.suzuki{
+    color: black;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 8px;
+}
+.xl6{
+    width: 300px;
+    height:200px;
+}
+.xl6para{
+    color: black;
+    width: 300px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.second-left{
+    width:311.835px ;
+    height:1300px;
+    background-color: white;
+    margin-top: 80px;
+}
+.breeza{
+    width:300px;
+    height: 200px;
+}
+.breezapara{
+    color:black;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.first-right{
+    width: 311.835px;
+    height:1300px;
+    background-color: white;
+    margin-top: 80px;
+ 
+}
+.celerio{
+    width: 300px;
+    height:200px;
+}
+.celeriopara{
+    color:black;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.second-right{
+    width:311.835px;
+    height:1300px;
+    background-color:white;
+    float: right;
+    margin-top: 80px;
+    
+}
+.ciaz{
+    width: 300px;
+    height:200px;
+}
+.ciazpara{
+    color: black;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.full-left{
+    float: left;
+    width: 50%;
+    height:1550px;
+    background-color: white;
+    display: flex;
+
+}
+.full-right{
+    float:right;
+    width: 50%;
+    height:1550px;
+    background-color: white;
+    display: flex;
+}
+.swift{
+    width: 300px;
+    height:200px;
+}
+.swiftpara{
+    color:black;
+    width: 300px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.baleno{
+    width: 300px;
+    height:200px;
+}
+.balenopara{
+    color:black;
+    width: 300px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.s-presso{
+    width: 300px;
+    height:200px;
+}
+.spressopara{
+    color:black;
+    width: 300px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.ignis{
+    width: 300px;
+    height:200px;
+}
+.ignispara{
+    color:black;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.wagonr{
+    width: 300px;
+    height:200px;
+}
+.wagonrpara{
+    color:black;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.scross{
+    width: 300px;
+    height:200px;
+}
+.scrosspara{
+    color:black;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.ertiga{
+    width: 300px;
+    height:200px;
+}
+.ertigapara{
+    color:black;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.eeco{
+    width: 300px;
+    height:200px;
+}
+.eecopara{
+    color:black;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.dzire{
+    width: 300px;
+    height:200px;
+}
+.dzirepara{
+    color: black;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.alto{
+    width: 300px;
+    height:200px;
+}
+.altopara{
+    color: black;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height:400px;
+    display: flex;
+}
+.footer-left{
+    width: 500px;
+    height:400px;
+    margin-left: 10px;
+}
+.footer-middle{
+    width:500px ;
+    height: 400px;
+}
+.footer-right{
+    width: 300px;
+    height: 400px;
+}
+.leftfooter-para{
+    color: white;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.about{
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.contact{
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.automotive-content{
+    color: white;
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.vidhya{
+    color: white;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.vidhya-mail{
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.designing{
+    color: white;
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.christo{
+    color: white;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.christo-mail{
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.footer-cars{
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.footer-bikes{
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.comparisions{
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.carso{
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.bikeso{
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}

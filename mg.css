@@ -1,0 +1,877 @@
+.header{
+    width: 1265px;
+    height: 85px;
+    margin-top: 0px;
+    background-color: black;
+    display: flex;
+    position: sticky;
+}
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    margin-right: 0px;
+    flex-wrap: nowrap;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.html,body{
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+}
+.image{
+    width: 70px;
+    height: 70px;
+}
+.auto-logo{
+    width:90px;
+    margin-top: 10px;
+    height: 70px;
+    margin-left: 30px;
+    
+
+}
+.automate{
+    font-size: 35px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: wavy;
+
+}
+.auto-name{
+    width:130px;
+    margin-top:23px;
+    height: 50px;
+    margin-left:0px;
+    padding-right: 100px;
+
+}
+.search-bardiv{
+    width: 450px;
+    margin-top:20px;
+    
+}
+.search-bar{
+    width: 450px;
+}
+.search{
+    width: 450px;
+}
+.search-bbar{
+    width:430px;
+}
+.search-sign{
+    width:40px;
+    height:40px;
+    margin-top: 20px;
+    
+}
+.insta-face{
+    width: 100px;
+    height: 50px;
+    margin-left: 580px;
+    padding-left: 0px;
+    margin-top: 27px;
+    display: flex;
+
+}
+.you-tube{
+    width: 25px;
+    height: 21px;
+    padding-left: 5px;
+    padding-top: 2px;
+    
+}
+.search-image{
+    width: 25px;
+    height: 25px;
+}
+.insta-image{
+    width: 25px;
+    height: 25px;
+}
+.face-image{
+    width: 25px;
+    height: 25px;
+    padding-left: 5px;
+}
+#title-bar{
+    width:1265px;
+    height: 45px;
+    background-color: black;
+    margin-top: 2px;
+    position: sticky;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} 
+#title-bar.sticky{
+    background-color:rgb(36, 35, 35);
+}
+.news{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    margin-left:5px;
+    
+}
+.cars{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    
+}
+.bike{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    
+}
+.comparision{
+    width:120px;
+    height:50px;
+    display: inline-block;
+}
+.newsp{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: wavy;
+}
+.carsp{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: wavy;
+}
+.bikep{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    text-decoration: wavy;
+}
+.comparisonsp{
+    width:120px;
+    height:50px;
+    display: inline-block;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: wavy;
+}
+.below-news-page{
+    background-color: black;
+    width: 1265px;
+    height: 850px;
+    flex-wrap: wrap;
+}
+.left{
+    width: 100%;
+    height: 870px;
+    background-color:black;
+    float: left;
+    padding-left: 5px;
+}
+.mg{
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 8px;
+}
+.astor{
+    width: 99%;
+    height:200px;
+}
+.astorpara{
+    color: white;
+    width: 300px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.hectorplus{
+    width: 99%;
+    height:200px;
+}
+.hectorpluspara{
+    color: white;
+    width: 300px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second-left{
+    width:100% ;
+    height:770px;
+    background-color: black;
+    margin-top: 78px;
+    padding-left: 0px;
+}
+
+.first-right{
+    width: 100%;
+    height:770px;
+    background-color: black;
+    margin-top: 78px;
+ 
+}
+
+.second-right{
+    width:100%;
+    height:770px;
+    background-color:black;
+    float: right;
+    margin-top: 78px;
+    margin-left: 2px;
+    
+}
+
+.full-left{
+    float: left;
+    width: 50%;
+    height:890px;
+    background-color: black;
+    display: flex;
+
+}
+.full-right{
+    float:right;
+    width: 50%;
+    height:890px;
+    background-color:black;
+    display: flex;
+}
+.hector{
+    width: 99%;
+    height:200px;
+}
+.hectorpara{
+    color: white;
+    width: 300px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gloster{
+    width: 99%;
+    height:200px;
+}
+.glosterpara{
+    color: white;
+    width: 300px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.zsev{
+    width: 99%;
+    height:200px;
+}
+.zsevpara{
+    color: white;
+    width: 300px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer{
+    background-color: rgb(117, 110, 110);
+    height:370px;
+    display: flex;  
+    width: 100%;
+}
+.footer-left{
+    width: 40%;
+    height:400px;
+    margin-left: 10px;
+}
+.footer-middle{
+    width: 40%;
+    height: 400px;
+    margin-top: 10px;
+}
+.footer-right{
+    width: 20%;
+    height: 400px;
+}
+.leftfooter-para{
+    color:black;
+    font-size:19px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.about{
+    color: black;
+    font-size: 18px;
+    text-decoration: wavy;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.contact{
+    color: black;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.automotive-content{
+    color: white;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.vidhya{
+    color: white;
+    font-size: 21px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.vidhya-mail{
+    color:black;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-decoration: wavy;
+}
+.designing{
+    color: white;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.christo{
+    color: white;
+    font-size: 21px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.christo-mail{
+    color: black;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-decoration: wavy;
+}
+.footer-cars{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.footer-bikes{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.comparisions{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.carso{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.bikeso{
+    color: black;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.news:hover{
+    background-color:rgb(61, 61, 61);
+}
+.cars:hover{
+    background-color:rgb(61, 61, 61);
+}
+.bike:hover{
+    background-color:rgb(61, 61, 61);
+}
+.comparision:hover{
+    background-color:rgb(61, 61, 61);
+}
+.vidhya-mail:hover{
+    background-color:rgb(61, 61, 61);
+}
+.christo-mail:hover{
+    background-color:rgb(61, 61, 61);
+}
+.copy-right{
+    width: 1265px;
+    height: 30px;
+    background-color: rgb(36, 35, 35);
+    padding-top: 0px;
+    margin: 0px;
+    flex-direction: column;
+}
+.copyright{
+    font-size: 18px;
+    color:grey;
+    margin-left: 400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media only screen and (max-width: 540px){ 
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .astor{
+      width:100%;
+    } 
+    .astorpara{
+      overflow-wrap: break-word;
+      font-size: 12px;
+    }
+    .hectorplus{
+      width: 100%;
+    } 
+    .hectorpluspara{
+        font-size: 12px;
+    }
+    .hector{
+      width: 100%;
+    }
+    .hectorpara{
+        font-size: 12px;
+    }
+    .gloster{
+       width: 100%;
+    }
+    .glosterpara{
+        font-size: 12px;
+    }
+    .zsev{
+        width: 100%;
+    }
+    .zsevpara{
+        font-size: 12px;
+    }
+    
+    .below-news-page{
+        height: 1150px;
+        width:100%;
+        justify-content: center;
+    }
+    .full-right{
+        flex-wrap: wrap;
+        height: 1150px;
+    }
+    .full-left{
+        flex-wrap: wrap;
+        height: 1150px;
+    }
+    .left{
+        width: 100%;
+        height:680px;
+    }
+    .second-left{
+        width: 100%;
+        margin-left: 5px;
+        height: 370px;
+    }
+    .first-right{
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 330px;
+    }
+    .second-right{
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top:0px;
+        height: 740px;
+    }
+    .header{
+        width:100%;
+        height: 50px;
+    }
+    .auto-logo{
+        width: 55px;
+        margin-top: 5px;
+        height: 45px;
+        margin-left: 10px;
+    }
+    .image{
+        width: 45px;
+        height: 45px;
+    }
+    .auto-name{
+        width: 50px;
+        height: 45px;
+    }
+    .automate{
+        font-size: 20px;
+    }
+    .insta-face{
+        width: 70px;
+        height: 35px;
+    }
+    .insta-image{
+        width: 15px;
+        height: 15px;
+    }
+    .face-image{
+        width: 15px;
+        height: 15px;
+    }
+    .you-tube{
+        width: 15px;
+        height: 13px;
+    }
+    .below-news-page{
+        width: 100%;
+    }
+    .title-bar{
+        width: 100%;
+    }
+    .insta-face{
+        margin-left: 60px;
+    }
+    .footer-left{
+        width:60% ;
+        height: 300px;
+    }
+    .footer-middle{
+        width:40% ;
+        height: 300px;
+        margin-left: 0px;
+        margin-right: 10px;
+
+    }
+    .footer-right{
+        display: none;
+    }
+    footer{
+        height: 300px;
+        width: 100%;
+    }
+    .leftfooter-para{
+        font-size: 12px;
+    }
+    .about{
+        font-size: 15px;
+    }
+    .contact{
+        font-size: 15px;
+    }
+    .automotive-content{
+        font-size: 15px;
+    }
+    .vidhya{
+        font-size: 15px;
+    }
+    .vidhya-mail{
+        font-size: 12px;
+    }
+    .designing{
+        font-size: 15px;
+    }
+    .christo{
+        font-size: 15px;
+    }
+    .christo-mail{
+        font-size: 12px;
+    }
+    .footer-cars{
+        font-size: 15px;
+    }
+    .footer-bikes{
+        font-size: 15px;
+    }
+    .comparisions{
+        font-size: 15px;
+    }
+    .carso{
+        font-size: 15px;
+    }
+    .bikeso{
+        font-size: 15px;
+    }
+    .copyright{
+        margin-left: 0%;
+        font-size: 15px;
+        margin-left: 20px;
+        width: 100%;
+    }
+    @media only screen and (min-width: 1240px){
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .footer{
+            width: 100%;
+            height: 400px;
+        }
+        .copy-right{
+            width: 100%;
+        }
+        .header{
+            width: 100%;
+        }
+        #title-bar{
+            width: 100%;
+        }
+        .below-news-page{
+            height: 1000px;
+            width:100%;
+            justify-content: center;
+        }
+    }
+    @media only screen and (min-width: 1241px){
+        .footer{
+            width: 100%;
+            height: 400px;
+        }
+        .copy-right{
+            width: 100%;
+        }
+        .header{
+            width: 100%;
+        }
+        #title-bar{
+            width: 100%;
+        }
+        .below-news-page{
+            height: 1000px;
+            width:100%;
+            justify-content: center;
+        }
+    }
+    @media only screen and (min-width: 1350px){
+    .footer{
+        width: 100%;
+        height: 400px;
+    }
+    .copy-right{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    #title-bar{
+        width: 100%;
+    }
+    .virtus{
+        width:99%;
+      } 
+      .virtuspara{
+        overflow-wrap: break-word;
+        font-size: 22px;
+      }
+      .polo{
+        width: 99%;
+      } 
+      .polopara{
+          font-size: 22px;
+      }
+      .tiguan{
+        width: 99%;
+      }
+      .tiguanpara{
+          font-size: 22px;
+      }
+      .taigun{
+         width: 99%;
+      }
+      .taigunpara{
+          font-size: 22px;
+      }
+      .vento{
+          width: 99%;
+      }
+      .ventopara{
+          font-size: 22px;
+      }
+      .insta-face{
+          margin-left: 750px;
+      }
+    .below-news-page{
+        height: 1000px;
+        width:100%;
+        justify-content: center;
+    }
+    .full-right{
+        height: 1000px;
+    }
+    .full-left{
+        height: 1000px;
+    }
+    .left{
+        width: 100%;
+        height:740px;
+    }
+    .second-left{
+        width: 100%;
+        margin-left: 5px;
+        margin-top:78px;
+        height: 350px;
+    }
+    .first-right{
+        width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 360px;
+    }
+    .second-right{
+        width: 100%;
+        margin-top:78px;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 600px;
+    }
+    .full-left{
+        height: 1000px;
+    }
+    .full-right{
+        height: 1000px;
+    }
+    @media only screen and (min-width: 1800px){ 
+        .insta-face{
+            margin-left: 1000px;
+        }
+        .virtus{
+            width:99%;
+            height: 250px;
+          } 
+          .virtuspara{
+            overflow-wrap: break-word;
+            font-size: 22px;
+          }
+          .polo{
+            width: 99%;
+            height: 250px;
+          } 
+          .polopara{
+              font-size: 22px;
+          }
+          .tiguan{
+            width: 99%;
+            height: 250px;
+          }
+          .tiguanpara{
+              font-size: 22px;
+          }
+          .taigun{
+             width: 99%;
+             height: 250px;
+          }
+          .taigunpara{
+              font-size: 22px;
+          }
+          .vento{
+              width: 99%;
+              height: 250px;
+          }
+          .ventopara{
+              font-size: 22px;
+          }
+          .header{
+              height: 100px;
+          }
+          .image{
+              width: 80px;
+              height: 80px;
+          }
+          .automate{
+              font-size: 45px;
+          }
+          .full-left{
+              height: 1150px;
+          }
+          .full-right{
+              height: 1150px;
+          }
+    }
+    @media only screen and (min-width: 2200px){ 
+        .insta-face{
+            margin-left: 1300px;
+        }
+        .virtus{
+            width:99%;
+            height: 250px;
+          } 
+          .virtuspara{
+            overflow-wrap: break-word;
+            font-size: 22px;
+          }
+          .polo{
+            width: 99%;
+            height: 280px;
+          } 
+          .polopara{
+              font-size: 22px;
+          }
+          .tiguan{
+            width: 99%;
+            height: 280px;
+          }
+          .tiguanpara{
+              font-size: 22px;
+          }
+          .taigun{
+             width: 99%;
+             height: 280px;
+          }
+          .taigunpara{
+              font-size: 22px;
+          }
+          .vento{
+              width: 99%;
+              height: 280px;
+          }
+          .ventopara{
+              font-size: 22px;
+          }
+    }
+    @media only screen and (min-width: 2500px){ 
+        .insta-face{
+            margin-left: 1500px;
+        }
+        .virtus{
+            width:99%;
+            height: 300px;
+          } 
+          .virtuspara{
+            overflow-wrap: break-word;
+            font-size: 22px;
+          }
+          .polo{
+            width: 99%;
+            height: 300px;
+          } 
+          .polopara{
+              font-size: 22px;
+          }
+          .tiguan{
+            width: 99%;
+            height: 300px;
+          }
+          .tiguanpara{
+              font-size: 22px;
+          }
+          .taigun{
+             width: 99%;
+             height: 300px;
+          }
+          .taigunpara{
+              font-size: 22px;
+          }
+          .vento{
+              width: 99%;
+              height: 300px;
+          }
+          .ventopara{
+              font-size: 22px;
+          }
+        }
+   
+}
