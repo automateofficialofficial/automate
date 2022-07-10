@@ -678,7 +678,7 @@
     }
     .footer{
         height: 400px;
-        width: 1280px;
+        width: 100%;
     }
     .leftfooter-para{
         font-size: 12px;
